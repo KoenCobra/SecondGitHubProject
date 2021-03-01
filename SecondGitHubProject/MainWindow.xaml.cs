@@ -25,9 +25,17 @@ namespace SecondGitHubProject
             InitializeComponent();
         }
 
+        int count = 0;
+
         private void btnCalc_Click(object sender, RoutedEventArgs e)
         {
             lblResult.Content = "hello world";
+        }
+
+        private void btnCount_Click(object sender, RoutedEventArgs e)
+        {
+            count++;
+            lblCount.Content = count;
         }
     }
 }
