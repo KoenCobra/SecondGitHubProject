@@ -24,5 +24,10 @@ namespace SecondGitHubProject
         {
             InitializeComponent();
         }
+
+        private void btnCalc_Click(object sender, RoutedEventArgs e)
+        {
+            lblResult.Content = "hello world";
+        }
     }
 }
